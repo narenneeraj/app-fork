@@ -8,7 +8,8 @@ agent any
       pwd
       whoami
       npm install
-      pm2 start ./bin/www
+      sudo pm2 start ./bin/www
+      sudo pm2 list
       '''
       }
       }
