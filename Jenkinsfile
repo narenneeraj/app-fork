@@ -3,7 +3,9 @@ agent any
   stages {
     stage ('Test'){
       steps {
-      sh 'echo hello world'
+      sh 'npm install'
+      sh 'pm2 delete all'
+      sh 'pm2 start ./bin/www'
       }
       }
   }
