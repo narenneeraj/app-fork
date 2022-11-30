@@ -7,6 +7,7 @@ agent any
       npm install
       sudo pm2 delete all
       sudo pm2 start ./bin/www
+      echo "hi"
       '''
       }
       }
