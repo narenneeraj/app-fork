@@ -6,6 +6,7 @@ agent any
       sh ''' 
       npm install
       pm2 start ./bin/www
+      echo "Hi Narendra"
       '''
       }
       }
