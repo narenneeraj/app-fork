@@ -5,8 +5,7 @@ agent any
       steps {
       sh ''' 
       npm install
-      sudo pm2 start ./bin/www
-      echo "Hi Narendra"
+      pm2 start ./bin/www
       '''
       }
       }
